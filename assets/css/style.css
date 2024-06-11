@@ -1,1 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
 
+.article-img {
+  height: 226px;
+}
