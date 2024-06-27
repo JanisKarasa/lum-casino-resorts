@@ -1,3 +1,10 @@
+<?php
+
+$lplink = "https://huncze.com/welcome.php";
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -14,6 +21,11 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"
       rel="stylesheet"
     />
+    <!-- Linking Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/afe0c925ee.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <!-- Header Section -->
@@ -1538,6 +1550,37 @@
         </div>
       </div>
     </footer>
+
+    <!-- CLICK POP MODULE -->
+    <section class="modal-container">
+      <div class="container">
+        <div class="modal-content-box text-center">
+          <a href="<?php echo $lplink ;?>" class="close-button"
+            ><i class="far fa-times-circle"></i
+          ></a>
+          <img
+            src="./assets/img/logo-1.png"
+            style="width: 180px; display: block; margin: 0px auto"
+          />
+          <img
+            src="./assets/img/logo-2.png"
+            style="width: 180px; display: block; margin: 0px auto"
+          />
+          <h4>THIS SITE USES COOKIES.</h4>
+          <p style="font-size: 1rem">
+            This website uses cookies to improve your experience. We only use
+            your data for the purposes you have approved.
+          </p>
+          <a
+            href="<?php echo $lplink ;?>"
+            class="modal-btn"
+            style="font-size: 1.4rem; background-color: green"
+            >Yes, I understand</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- CLICK POP MODULE End -->
 
     <!-- Linking Flowbite -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
